@@ -42,7 +42,6 @@ public class Ex2 {
 		try {
 			t3.join();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
