@@ -2,12 +2,12 @@ package threads;
 
 import java.util.List;
 
-public class ThreadArray1 extends Thread {
+public class ThreadArray extends Thread {
 
 	private List<Integer> array;
 	private int sum;
 
-	public ThreadArray1(List<Integer> array) {
+	public ThreadArray(List<Integer> array) {
 		super();
 		this.array = array;
 		this.sum = 0;

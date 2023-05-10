@@ -3,7 +3,7 @@ package app;
 import java.util.ArrayList;
 import java.util.List;
 
-import threads.ThreadArray1;
+import threads.ThreadArray;
 
 public class Ex2 {
 
@@ -16,13 +16,13 @@ public class Ex2 {
 		}
 
 		List<Integer> part1 = randomNumbers.subList(0, 999);
-		ThreadArray1 t1 = new ThreadArray1(part1);
+		ThreadArray t1 = new ThreadArray(part1);
 
 		List<Integer> part2 = randomNumbers.subList(999, 1999);
-		ThreadArray1 t2 = new ThreadArray1(part2);
+		ThreadArray t2 = new ThreadArray(part2);
 
 		List<Integer> part3 = randomNumbers.subList(2000, 3000);
-		ThreadArray1 t3 = new ThreadArray1(part3);
+		ThreadArray t3 = new ThreadArray(part3);
 
 		t1.start();
 		try {
